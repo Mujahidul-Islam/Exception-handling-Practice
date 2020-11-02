@@ -11,7 +11,7 @@ public class Solution {
 
         }
         catch (InputMismatchException e){
-            System.out.println("java.util.InputMismatchException");
+            System.out.println(e);
         }
         catch(Exception e){
             System.out.println(e);
